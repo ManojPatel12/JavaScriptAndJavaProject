@@ -10,5 +10,10 @@ public class HelloController {
 	public String index() {
 		return "Greetings from Spring Boot!";
 	}
+	
+	@PostMapping("/polymorphed")
+	public String index() {
+		return "add( ) called";
+	}
 
 }
